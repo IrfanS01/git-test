@@ -19,7 +19,7 @@ public class OVNING_2_MATLISTA {
                 if (answer.equals("ja")) {
                     System.out.println("Vilken vara vill du byta?");
                     String changeProdukt = sc.nextLine();
-                    System.out.println("Vilken ny produkt vill du lägga till?");
+                    System.out.println("Vilken ny vara vill du lägga till?");
                     String newProduct = sc.nextLine();
                     if (matLista.contains(changeProdukt)) {
                         int index = matLista.indexOf(changeProdukt);
